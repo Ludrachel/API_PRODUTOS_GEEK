@@ -9,3 +9,4 @@ async def get_db():
     yield sync_database(get_engine())
 
 app.include_router(router, prefix='/products')
+
